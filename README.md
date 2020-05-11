@@ -1,8 +1,10 @@
-# Vim-Summary-Commands Anthony Fargette 2020
+# Vim-Summary-Commands
+
+>Vim lessons Summary from the vimtutor
 
 ## Table of contents
 
-- [Vim-Summary-Commands Anthony Fargette 2020](#vim-summary-commands-anthony-fargette-2020)
+- [Vim-Summary-Commands](#vim-summary-commands)
   - [Table of contents](#table-of-contents)
   - [Lesson 1 SUMMARY](#lesson-1-summary)
   - [Lesson 2 SUMMARY](#lesson-2-summary)
@@ -58,55 +60,55 @@
 ### Lesson 4 SUMMARY
 
 1. CTRL-G  displays your location in the file and the file status.
-          G  moves to the end of the file.
-  number  G  moves to that line number.
-         gg  moves to the first line.
+G  moves to the end of the file.
+number  G  moves to that line number.
+gg  moves to the first line.
 
 2. Typing  / followed by a phrase searches FORWARD for the phrase.
-  Typing  ? followed by a phrase searches BACKWARD for the phrase.
-  After a search type  n  to find the next occurrence in the same direction
-  or  N  to search in the opposite direction.
-  CTRL-O takes you back to older positions, CTRL-I to newer positions.
+Typing  ? followed by a phrase searches BACKWARD for the phrase.
+After a search type  n  to find the next occurrence in the same direction
+or  N  to search in the opposite direction.
+CTRL-O takes you back to older positions, CTRL-I to newer positions.
 
 3. Typing  % while the cursor is on a (,),[,],{, or } goes to its match.
 
 4. To substitute new for the first old in a line type
-     `:s/old/new`
-  To substitute new for all 'old's on a line type
-  `:s/old/new/g`
-  To substitute phrases between two line #'s type
-  `:#,#s/old/new/g`
-  To substitute all occurrences in the file type
-  `:%s/old/new/g`
-  To ask for confirmation each time add 'c'
-  `:%s/old/new/gc`
+`:s/old/new`
+To substitute new for all 'old's on a line type
+`:s/old/new/g`
+To substitute phrases between two line #'s type
+`:#,#s/old/new/g`
+To substitute all occurrences in the file type
+`:%s/old/new/g`
+To ask for confirmation each time add 'c'
+`:%s/old/new/gc`
 
 ### Lesson 5 SUMMARY
 
 1. :!command  executes an external command.
-   Some useful examples are:
- (MS-DOS) (Unix)
- :!dir :!ls - shows a directory listing.
- :!del FILENAME :!rm FILENAME - removes file FILENAME.
+Some useful examples are:
+(MS-DOS) (Unix)
+:!dir :!ls - shows a directory listing.
+:!del FILENAME :!rm FILENAME - removes file FILENAME.
 
 2. :w FILENAME  writes the current Vim file to disk with name FILENAME.
 
 3. v  motion  :w FILENAME  saves the Visually selected lines in file
-   FILENAME.
+FILENAME.
 
 4. :r FILENAME  retrieves disk file FILENAME and puts it below the
-   cursor position.
+cursor position.
 
 5. :r !dir  reads the output of the dir command and puts it below the
-   cursor position.
+cursor position.
 
 ### Lesson 6 SUMMARY
 
 1. Type o to open a line BELOW the cursor and start Insert mode.
-  Type O to open a line ABOVE the cursor.
+Type O to open a line ABOVE the cursor.
 
 2. Type a to insert text AFTER the cursor.
-  Type A to insert text after the end of the line.
+Type A to insert text after the end of the line.
 
 3. The e command moves to the end of a word.
 
@@ -135,4 +137,4 @@ You can either use the long or the short option name.
 5. Create a vimrc startup script to keep your preferred settings.
 
 6. When typing a : command, press CTRL-D to see possible completions.
-  Press \<TAB> to use one completion.
+Press \<TAB> to use one completion.

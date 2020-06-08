@@ -8,7 +8,7 @@ Vim lessons summary from the vimtutor.
   - [Table of contents](#table-of-contents)
   - [Lesson 1 SUMMARY](#lesson-1-summary)
   - [Lesson 2 SUMMARY](#lesson-2-summary)
-    - [Lesson 3 SUMMARY](#lesson-3-summary)
+  - [Lesson 3 SUMMARY](#lesson-3-summary)
   - [Lesson 4 SUMMARY](#lesson-4-summary)
   - [Lesson 5 SUMMARY](#lesson-5-summary)
   - [Lesson 6 SUMMARY](#lesson-6-summary)
@@ -49,7 +49,7 @@ where:
 To undo all the changes on a line type: `U` (capital U)
 To undo the undo's type: `CTRL-R`
 
-### Lesson 3 SUMMARY
+## Lesson 3 SUMMARY
 
 1. To put back text that has just been deleted, type `p`. This puts the deleted text AFTER the cursor (if a line was deleted it will go on the line below the cursor).
 

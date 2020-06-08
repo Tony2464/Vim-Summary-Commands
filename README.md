@@ -9,10 +9,10 @@ Vim lessons summary from the vimtutor.
   - [Lesson 1 SUMMARY](#lesson-1-summary)
   - [Lesson 2 SUMMARY](#lesson-2-summary)
     - [Lesson 3 SUMMARY](#lesson-3-summary)
-    - [Lesson 4 SUMMARY](#lesson-4-summary)
-    - [Lesson 5 SUMMARY](#lesson-5-summary)
-    - [Lesson 6 SUMMARY](#lesson-6-summary)
-    - [Lesson 7 SUMMARY](#lesson-7-summary)
+  - [Lesson 4 SUMMARY](#lesson-4-summary)
+  - [Lesson 5 SUMMARY](#lesson-5-summary)
+  - [Lesson 6 SUMMARY](#lesson-6-summary)
+  - [Lesson 7 SUMMARY](#lesson-7-summary)
 
 ## Lesson 1 SUMMARY
 
@@ -59,7 +59,7 @@ To undo the undo's type: `CTRL-R`
 
 4. The format for change is: `c [number]` motion
 
-### Lesson 4 SUMMARY
+## Lesson 4 SUMMARY
 
 1. `CTRL-G` displays your location in the file and the file status.
 `G` moves to the end of the file.
@@ -85,7 +85,7 @@ To substitute all occurrences in the file type
 To ask for confirmation each time add 'c'
 `:%s/old/new/gc`
 
-### Lesson 5 SUMMARY
+## Lesson 5 SUMMARY
 
 1. `:!command`  executes an external command.
 Some useful examples are:
@@ -101,7 +101,7 @@ Some useful examples are:
 
 5. `:r !dir` reads the output of the dir command and puts it below the cursor position.
 
-### Lesson 6 SUMMARY
+## Lesson 6 SUMMARY
 
 1. Type `o` to open a line BELOW the cursor and start Insert mode.
 Type `O` to open a line ABOVE the cursor.
@@ -124,7 +124,7 @@ You can either use the long or the short option name.
 
 7. Prepend "no" to switch an option off: `:set` noic.
 
-### Lesson 7 SUMMARY
+## Lesson 7 SUMMARY
 
 1. Type `:help` or press `<F1>` or `<Help>` to open a help window.
 
